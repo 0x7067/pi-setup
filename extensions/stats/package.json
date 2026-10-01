@@ -1,0 +1,13 @@
+{
+  "name": "stats",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit -p .",
+    "test": "node --test --experimental-strip-types stats.test.ts server.test.ts prompt-profile.test.ts runtime.test.ts"
+  },
+  "devDependencies": {
+    "@effect/tsgo": "^0.24.2",
+    "typescript": "^7.0.2"
+  }
+}

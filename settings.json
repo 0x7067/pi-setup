@@ -1,0 +1,27 @@
+{
+  "packages": [
+    {
+      "source": "npm:@howaboua/pi-codex-conversion",
+      "autoload": false
+    },
+    "git:github.com/0x7067/jev-browse",
+    "git:github.com/0x7067/compact-adviser",
+    "git:github.com/0x7067/claude-jev"
+  ],
+  "extensions": [
+    "!extensions/composer/**",
+    "!extensions/custom-ocr/**",
+    "!extensions/summaries/**"
+  ],
+  "steeringMode": "all",
+  "followUpMode": "all",
+  "quietStartup": true,
+  "enableInstallTelemetry": false,
+  "tuiMode": "fullscreen",
+  "defaultThinkingLevel": "high",
+  "hideThinkingBlock": true,
+  "collapseChangelog": true,
+  "compaction": {
+    "enabled": true
+  }
+}
