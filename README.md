@@ -1,6 +1,6 @@
 # Pi setup
 
-Extensions and settings for the [Pi](https://github.com/earendil-works/pi) coding agent. Pi reads them from `~/.pi/agent`, so that's where the repository goes. [`extensions/README.md`](extensions/README.md) lists each extension.
+Extensions, themes, and settings for the [Pi](https://github.com/earendil-works/pi) coding agent. Pi reads them from `~/.pi/agent`, so that's where the repository goes. [`extensions/README.md`](extensions/README.md) lists each extension.
 
 ## Install
 
@@ -17,6 +17,10 @@ pi update --extensions
 
 Fill in `.env`, then add provider credentials from inside Pi. `pi update --extensions` installs the packages listed in `settings.json`.
 
+## Themes
+
+`settings.json` selects `oxocarbon-dark`. `oxocarbon-light` is also in `themes/`.
+
 ## Check
 
 ```sh
@@ -26,4 +30,4 @@ npm test
 
 ## License
 
-Part of this repository is forked from [`davis7dotsh/my-pi-setup`](https://github.com/davis7dotsh/my-pi-setup) and stays under its MIT license, in [`LICENSE.my-pi-setup`](LICENSE.my-pi-setup).
+Most extensions are forked from [`davis7dotsh/my-pi-setup`](https://github.com/davis7dotsh/my-pi-setup) and stay under its MIT license, in [`LICENSE.my-pi-setup`](LICENSE.my-pi-setup). `ask-user-question` is forked from [`juicesharp/rpiv-mono`](https://github.com/juicesharp/rpiv-mono) and keeps its MIT license.

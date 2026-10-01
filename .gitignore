@@ -9,6 +9,7 @@
 !/package.json
 !/scripts/
 !/settings.json
+!/themes/
 !/tsconfig.json
 **/node_modules/
 **/.venv/

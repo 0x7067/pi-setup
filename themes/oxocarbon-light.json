@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "oxocarbon-light",
+  "vars": {
+    "bg": "#f2f4f8",
+    "bg2": "#e0e0e0",
+    "sel": "#dde1e6",
+    "gray": "#8d8d8d",
+    "muted": "#6f6f6f",
+    "fg": "#161616",
+    "fg2": "#393939",
+    "white": "#000000",
+    "red": "#da1e28",
+    "orange": "#ba4e00",
+    "yellow": "#8e6a00",
+    "green": "#198038",
+    "cyan": "#1192e8",
+    "blue": "#0f62fe",
+    "purple": "#8a3ffc",
+    "magenta": "#d02670",
+    "pink": "#9f1853",
+    "teal": "#007d79",
+    "diff_add_bg": "#d9fbe4",
+    "diff_del_bg": "#ffd7e8"
+  },
+  "colors": {
+    "accent": "magenta", "border": "sel", "borderAccent": "magenta", "borderMuted": "sel",
+    "success": "green", "error": "red", "warning": "orange",
+    "muted": "muted", "dim": "gray", "text": "fg", "thinkingText": "fg2",
+    "selectedBg": "bg2", "scrollbarTrack": "bg2", "scrollbarThumb": "gray",
+    "searchMatchBg": "yellow", "searchMatchText": "bg",
+    "userMessageBg": "bg2", "userMessageText": "fg",
+    "customMessageBg": "bg2", "customMessageText": "fg", "customMessageLabel": "cyan",
+    "toolPendingBg": "bg2", "toolSuccessBg": "diff_add_bg", "toolErrorBg": "diff_del_bg",
+    "toolTitle": "cyan", "toolOutput": "fg2",
+    "mdHeading": "magenta", "mdLink": "blue", "mdLinkUrl": "purple", "mdCode": "cyan",
+    "mdCodeBlock": "fg2", "mdCodeBlockBorder": "sel", "mdQuote": "muted", "mdQuoteBorder": "purple",
+    "mdHr": "sel", "mdListBullet": "pink",
+    "toolDiffAdded": "green", "toolDiffRemoved": "red", "toolDiffContext": "muted",
+    "syntaxComment": "gray", "syntaxKeyword": "magenta", "syntaxFunction": "blue",
+    "syntaxVariable": "fg", "syntaxString": "teal", "syntaxNumber": "pink", "syntaxType": "cyan",
+    "syntaxOperator": "pink", "syntaxPunctuation": "fg2",
+    "thinkingOff": "gray", "thinkingMinimal": "purple", "thinkingLow": "blue", "thinkingMedium": "cyan",
+    "thinkingHigh": "pink", "thinkingXhigh": "orange", "thinkingMax": "red", "bashMode": "cyan"
+  },
+  "export": {
+    "pageBg": "bg",
+    "cardBg": "bg2",
+    "infoBg": "bg2"
+  }
+}

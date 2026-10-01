@@ -17,9 +17,10 @@ Pi loads every `extensions/*` entrypoint automatically. The `extensions` array i
 | Input composer | `composer` | Custom editor with image previews, skill and tool completion, and a draft stash. See [composer controls](composer/README.md) |
 | Documents and images (off) | `custom-ocr` | `parse-file`, `/ocr`, `/private-image`. See [custom-ocr](custom-ocr/README.md) |
 | Usage and cache diagnosis | `stats` | `/stats`, `/stats-warnings`, `pi-stats`. See [stats](stats/README.md) |
+| Questions | `ask-user-question` | `ask_user_question` tool for multiple-choice questions with previews. See [ask-user-question](ask-user-question/README.md) |
 | Codex conversion | `010-lazy-codex-conversion.ts` | Loads `@howaboua/pi-codex-conversion` when a Codex-like model is selected |
 
-`workflows`, `summaries`, `copy-all`, `file-search`, `firecrawl-search`, `ui-customization`, `subagents`, `background-terminals`, `git-info`, `model-info`, and `shared/` started as a fork of [`davis7dotsh/my-pi-setup`](https://github.com/davis7dotsh/my-pi-setup) (MIT; see [`LICENSE.my-pi-setup`](../LICENSE.my-pi-setup)).
+`workflows`, `summaries`, `copy-all`, `file-search`, `firecrawl-search`, `ui-customization`, `subagents`, `background-terminals`, `git-info`, `model-info`, and `shared/` started as a fork of [`davis7dotsh/my-pi-setup`](https://github.com/davis7dotsh/my-pi-setup) (MIT; see [`LICENSE.my-pi-setup`](../LICENSE.my-pi-setup)). `ask-user-question` is a fork of [`@juicesharp/rpiv-ask-user-question`](https://github.com/juicesharp/rpiv-mono) and keeps its MIT [license](ask-user-question/LICENSE).
 
 Pi workers started by `subagents` and `workflows` go through `shared/child-session.ts`. They get Pi's native tools and the provider integrations, but not the parent's UI, delegation tools, or question tools. Project instructions follow Pi's context loading, and project skills still need project trust.
 

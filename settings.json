@@ -1,4 +1,5 @@
 {
+  "theme": "oxocarbon-dark",
   "packages": [
     {
       "source": "npm:@howaboua/pi-codex-conversion",
