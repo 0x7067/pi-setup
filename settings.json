@@ -9,7 +9,6 @@
     "git:github.com/0x7067/claude-jev"
   ],
   "extensions": [
-    "!extensions/composer/**",
     "!extensions/custom-ocr/**",
     "!extensions/summaries/**"
   ],
